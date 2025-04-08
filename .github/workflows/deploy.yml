@@ -31,4 +31,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "ap-south-1" # or your region
         run: |
-          aws s3 sync ./dist/test-1/browser s3://helloworld-testangular-1 --delete
+          aws s3 sync ./dist/test-1/browser s3://helloworld-test-12 --delete
